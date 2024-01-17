@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:hsl(212, 45%, 89%);
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.rectangle{
+    background:hsl(0, 0%, 100%);
+    width: 80%;
+    height: auto;
+    margin-top: 75px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+}
+
+.rectangle img{
+    margin-top: 15px;
+    margin-left: 15Px;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.titre{
+    width: 80%;
+    margin: 20px 30px;
+}
+
+.titre h1{
+    font-weight: 700;
+    text-align:center;
+    font-size: 16px;
+
+}
+.paragraphe{
+    width: 80%;
+    margin-left: 30px;
+}
+
+.paragraphe p{
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    opacity: 80%;
+}
+
+@media only screen and (min-width:1080px) {
+    .rectangle{
+        background:hsl(0, 0%, 100%);
+        width: 20%;
+        height: auto;
+        margin: 10% 40%;
+        border: none;
+        outline: none;
+        border-radius: 15px;
+    }
+
+}
